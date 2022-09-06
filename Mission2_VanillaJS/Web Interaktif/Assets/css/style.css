@@ -1,0 +1,87 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-sizing: border-box;
+}
+
+
+#Sky {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/Sky.jpg');
+    background-size: cover;
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+    z-index: 1;
+}
+
+#MyTrain {
+    height: 20%;
+    position: absolute;
+    left: 10%;
+    z-index: 5;
+    transform: scale(-1, 1);
+}
+
+#Cloud1 {
+    height: 20%;
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    z-index: 6;
+}
+
+#Cloud2 {
+    height: 20%;
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    z-index: 6;
+}
+
+#Moon {
+    height: 30%;
+    position: absolute;
+    left: 50%;
+    z-index: 65;
+}
+
+#Building {
+    width: 100%;
+    height: 30%;
+    bottom: 40%;
+    left: 0;
+    background-image: url('../images/Building.png');
+    background-size: cover;
+    background-repeat: repeat-x;
+    position: absolute;
+    z-index: 2;
+}
+
+#Midground {
+    width: 100%;
+    height: 30%;
+    bottom: 30%;
+    left: 0;
+    background-image: url('../images/Midground.png');
+    background-size: cover;
+    background-repeat: repeat-x;
+    position: absolute;
+    z-index: 2;
+}
+
+#Ground {
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    left: 0;
+    background-image: url('../images/Ground.png');
+    background-size: cover;
+    background-repeat: repeat-x;
+    position: absolute;
+    z-index: 2;
+}
