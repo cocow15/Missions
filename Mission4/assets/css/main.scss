@@ -1,0 +1,81 @@
+h1 {
+    font-family: 'Montserrat';
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+.s1 h1{
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    color: black;
+    //background: linear-gradient(to left, #000000, #000000);
+    //-webkit-background-clip: text;
+    //-webkit-text-fill-color: transparent;
+    z-index: 100;
+}
+
+.s1 h2{
+    font-size: 30px;
+    position: absolute;
+    top: 30%;
+    left: 68%;
+    z-index: 100;
+}
+
+.s2 {
+    background: url("../images/BG MAP.jpg");
+    background-size: cover;
+}
+
+.s2 h1{
+    font-size: 50px;
+    position: absolute;
+    top: 8%;
+    left: 12%;
+    z-index: 100;
+}
+
+.s3 {
+    background-image: url('../images/BG WATERFALL.jpg');
+    background-size:cover;
+}
+
+.s4{
+    background-image: url('../images/BG PULAU.jpg');
+    background-size:cover;
+}
+
+.s5{
+    background-image: url('../images/BG gua laut.jpg');
+    background-size:cover;
+}
+
+.s6{
+    background-image: url('../images/BG BENTANG ALAM.jpg');
+    background-size:cover;
+}
+
+.s7{
+    background-image: url('../images/BG BATUAN UNIK.jpg');
+    background-size:cover;
+}
+
+.s8{
+    background-image: url('../images/BGGEO.jpg');
+    background-size:cover;
+}
+
+
+.s10 h1{
+  font-size: 64px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background: linear-gradient(to left, #87c7df, #648896);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

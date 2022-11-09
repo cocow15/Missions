@@ -1,0 +1,407 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    box-sizing: border-box;
+}
+
+#Sky {
+    width: 100%;
+    height: 100%;
+    background-color: #B0E4EB;
+    background-size: cover;
+    background-repeat: repeat-x;
+    position: absolute;
+    bottom: 40%;
+    left: 0;
+    z-index: 1;
+}
+
+#MyTrain {
+    height: 20%;
+    position: absolute;
+    left: 10%;
+    z-index: 5;
+    transform: scale(-1, 1);
+}
+
+#Cloud1 {
+    height: 20%;
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    z-index: 6;
+}
+
+#Cloud2 {
+    height: 20%;
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    z-index: 6;
+}
+
+#Moon {
+    height: 30%;
+    position: absolute;
+    left: 50%;
+    z-index: 65;
+}
+
+#Building {
+    width: 100%;
+    height: 50%;
+    bottom: 40%;
+    left: 0;
+    background-image: url('../images/pegunungan1.png');
+    background-size: cover;
+    background-repeat: repeat-x;
+    position: absolute;
+    z-index: 2;
+}
+
+#Midground {
+    width: 100%;
+    height: 30%;
+    bottom: 30%;
+    left: 0;
+    background-image: url('../images/Midground.png');
+    background-size: cover;
+    background-repeat: repeat-x;
+    position: absolute;
+    z-index: 2;
+}
+
+#Ground {
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    background-image: url('../images/pantai1.png');
+    background-size: cover;
+    background-repeat: repeat-x;
+    position: absolute;
+    z-index: 2;
+}
+
+#people1 {
+    height: 38%;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    z-index: 6;
+}
+
+#people2 {
+    height: 25%;
+    position: absolute;
+    bottom: 15%;
+    left: 20%;
+    z-index: 6;
+}
+
+#ground1{
+    height: 22%;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    z-index: 4;
+}
+
+#ground1{
+    height: 22%;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    z-index: 4;
+}
+
+.map{
+    height: 80%;
+    position: absolute;
+    bottom: 10%;
+    right: 3%;
+    z-index: 4;
+    transform: translate(-5%, -5%);
+}
+
+.text{
+    height: 45%;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    z-index: 4; 
+}
+
+#logoCiletuh{
+    height: 15%;
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    z-index: 6;
+}
+
+#scroll {
+    height: 15%;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    z-index: 6;
+}
+
+#title{
+    top: 10%;
+    left: 4.5%;
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.shape1{
+    left: 0%;
+    top: 0%;
+    position: absolute;
+    z-index:1;
+    height: 100%;
+}
+
+#shape2{
+    right: 1%;
+    top: 18%;
+    position: absolute;
+    z-index:1;
+    height: 70%;
+}
+
+#textwaterfall{
+    left: 3.5%;
+    top: 26%;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    font-size: 33px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#textlocation{
+    left: 10%;
+    top: 20%;
+    position: absolute;
+    z-index: 10;
+    height: 100%;
+    font-size: 28px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+#titlePulau{
+    top: 16%;
+    left: 6%;
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.shapePulau1{
+    left: 0%;
+    top: 7%;
+    position: absolute;
+    z-index:1;
+    height: 80%;
+}
+
+.shapePulau2{
+    right: 1%;
+    top: 3%;
+    position: absolute;
+    z-index:1;
+    height: 90%;
+}
+
+#textisland{
+    left: 6%;
+    top: 26%;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    font-size: 33px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+#titleGua{
+    top: 19%;
+    right: 5%;
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#shapeGua1{
+    left: 6%;
+    top: 20%;
+    position: absolute;
+    z-index:1;
+    height: 60%;
+}
+
+#shapeGua2{
+    right: 10%;
+    top: 12%;
+    position: absolute;
+    z-index:1;
+    height: 90%;
+}
+
+#textislandGua{
+    right: 11%;
+    top: 30%;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    font-size: 33px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#titleBentang{
+    top: 15%;
+    left: 2%;
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    font-size: 50px;
+    color: #42855B;
+    font-family: sans-serif;
+}
+
+#shapeBentang1{
+    left: 0%;
+    top: 7%;
+    position: absolute;
+    z-index:1;
+    height: 90%;
+}
+
+#shapeBentang2{
+    right: 2%;
+    top: 18%;
+    position: absolute;
+    z-index:1;
+    height: 70%;
+}
+
+#textBentang{
+    left: 2%;
+    top: 30%;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    font-size: 33px;
+    color: white;
+    font-family: sans-serif;
+}
+
+
+#titleBatu{
+    top: 15%;
+    left: 3%;
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#shapeBatu1{
+    left: 0%;
+    top: 4%;
+    position: absolute;
+    z-index:1;
+    height: 100%;
+}
+
+#shapeBatu2{
+    right: 5%;
+    top: 5%;
+    position: absolute;
+    z-index:1;
+    height: 90%;
+}
+
+#textBatu{
+    left: 3%;
+    top: 25%;
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+
+.main-title{
+    z-index: 100;
+    position: absolute;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    /* top: 5vmin;
+    right: 10vmin; */
+    /* font-family: 'Space Mono', monospace; */
+}
+
+.circlemenu{
+    margin: auto;
+    padding: 0;
+    height: 100vmin;
+    display: flex;
+    align-items: center;
+}
+
+.object{
+    position: absolute;
+    margin: auto;
+    width: 50%;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.orbit{
+    z-index: -1;
+    border-radius: 50%;
+    background: rgba(217, 217, 217, 0.5);
+    border: 3px solid #000000;
+    backdrop-filter: blur(20px);
+}
+
+.logo{
+    height: 15vmin;
+    width: 15vmin;
+    display: flex;
+}
